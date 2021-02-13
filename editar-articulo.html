@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Pagina que representa la edicion de un articulo">
   <link rel="shortcut icon" href="img/coffee-menu.svg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/5f7c47251a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/estilos.css">
   <title>Editar Articulo_GrupoD</title>
 </head>
@@ -25,7 +26,7 @@
   <main>
     <header class="cabecera-main">
       <div>
-        <i class="fas fa-plus-circle"></i>
+        <i class="fas fa-minus-circle"></i>
         <p>
           <span class="compras">2</span> /
           <span class="max-compras">3</span> comprados
@@ -34,6 +35,20 @@
       <!-- Donde iria el icono - y el 2/3 -->
     </header>
     <section>
+      <h2>Editar artículo</h2>
+      <form>
+        <div>
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" required>
+        </div>
+        <div>
+          <label for="precio">Precio: </label>
+          <input type="number" id="precio">€
+        </div>
+        <div>
+          <input type="submit" value="Modificar">
+        </div>
+      </form>
       <!-- Contenido de la edicion de un articulo-->
     </section>
   </main>
