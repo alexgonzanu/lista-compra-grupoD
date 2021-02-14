@@ -25,7 +25,7 @@
   <main>
     <header class="cabecera-main">
       <div class="icon">
-        <i class="fas fa-plus-circle" aria-hidden="true"></i>
+        <a href="editar-articulo.html"><i class="fas fa-plus-circle" aria-hidden="true"></i></a>
       </div>
       <div>
         <p>
@@ -36,26 +36,26 @@
     </header>
     <section>
       <ul>
-        <li>
+        <li class="row-list">
           <input type="checkbox" id="list-pan">
-          <span>Pan</span>
-          <span>0.75€</span>
+          <span class="line-through">Pan</span>
+          <span class="price">0.75€</span>
           <i class="fas fa-times"></i>
         </li>
-        <li>
+        <li class="row-list">
           <input type="checkbox" id="list-azucar">
           <span>Azúcar</span>
-          <span></span>
+          <span class="price"></span>
           <i class="fas fa-times"></i>
         </li>
-        <li>
+        <li class="row-list">
           <input type="checkbox" id="list-leche">
-          <span>Leche</span>
-          <span>1.20€</span>
+          <span class="line-through">Leche</span>
+          <span class="price">1.20€</span>
           <i class="fas fa-times"></i>
         </li>
       </ul>
-      <span>1.95€</span>
+      <span class="total-price">1.95€</span>
     </section>
   </main>
 </body>
