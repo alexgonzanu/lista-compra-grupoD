@@ -35,6 +35,10 @@ li a {
 }
 
 li a:hover {
+  text-decoration: underline;
+}
+
+.item-selected {
   font-weight: bold;
 }
 
