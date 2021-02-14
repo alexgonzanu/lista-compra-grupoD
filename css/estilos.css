@@ -28,6 +28,8 @@ body {
 .cabecera nav ul {
   display: flex;
   list-style: none;
+  font-size: 14px;
+  color: rgb(40, 40, 40)
 }
 
 li a {
@@ -54,19 +56,21 @@ li a:hover {
 p {
   margin-top: auto;
   margin-bottom: auto;
-  font-size: 20px;
+  font-size: 25px;
+  color: rgb(40, 40, 40);
 }
 
 .icon i {
   margin-top: auto;
   margin-bottom: auto;
-  font-size: 2em;
-  color: rgb(19, 19, 19);
+  font-size: 35px;
+  color: rgb(40, 40, 40);
 }
 
 section {
   margin: 10px 20px;
-  font-size: 18px;
+  font-size: 22px;
+  color: rgb(40, 40, 40);
 }
 
 section ul {
@@ -118,16 +122,25 @@ input{
   padding: 5px 0px;
 }
 
+h1 {
+  font-size: 20px;
+  color: rgb(40, 40, 40);
+}
+
 .comando h2 {
-  color: rgb(31, 31, 31);
+  color: rgb(40, 40, 40);
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: inherit;
+  font-size: 25px;
 }
 
 form label {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 20px;
+  color: rgb(40, 40, 40);
 }
 
 form input[type="text"],
