@@ -14,6 +14,14 @@ body {
   font-size: small; 
 }
 
+.cabecera, main {
+  padding: 20px;
+}
+
+main {
+  padding-top: 0;
+}
+
 .cabecera {
   display: flex;
   justify-content: space-between;
@@ -51,6 +59,9 @@ li a:hover {
   justify-content: space-between;
   background-color: #f87500 ;
   padding: 20px;
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 p {
