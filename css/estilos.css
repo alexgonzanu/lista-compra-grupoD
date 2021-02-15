@@ -12,6 +12,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   font-size: small; 
+  height: 100vh;
 }
 
 .cabecera, main {
@@ -41,7 +42,7 @@ main {
 }
 
 li a {
-  padding: 15px;
+  padding-left: 15px;
   color: black;
   text-decoration: none;
 }
@@ -79,7 +80,7 @@ p {
 }
 
 section {
-  margin: 10px 20px;
+  margin: 10px 0;
   font-size: 22px;
   color: rgb(40, 40, 40);
 }
@@ -115,10 +116,8 @@ section ul {
 }
 
 .total-price {
-    position: absolute;
-    right: 0;
-    margin-right: 30px;
-    margin-top: 10px;
+  text-align: right ;
+  margin-top: 10px;
 }
 
 input{
